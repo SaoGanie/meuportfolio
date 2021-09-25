@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  background-image: url("https://images6.alphacoders.com/958/958361.jpg");
+
+  color: #000000;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 45px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-heigth: 160px;
+  padding: 10px;
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weigth: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weigth: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weigth: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.projetos {
+  background: linear-gradient(230.65deg, #e0ffff 27.49%, #b0e0e6 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+
+  padding: 32px;
+}
+
+.texto-projetos ul {
+  list-style: none;
+  font-size: 38px;
+  font-weight: bold;
+  color: #1c1c1c;
+  text-align: center;
+}
+.texto-projetos li {
+  list-style: none;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 42px;
+  color: #1c1c1c;
+  text-align: center;
+}
+.texto-projetos a {
+  text-decoration: none;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background-image: url("https://images.alphacoders.com/852/thumb-1920-852689.png");
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+.dark .projetos {
+  background: linear-gradient(230.65deg, #4b0082 27.49%, #9400d3 83.19%);
+}
+.dark .texto-projetos ul {
+  color: #ffffff;
+}
+
+.dark .texto-projetos li {
+  color: #ffffff;
+}
